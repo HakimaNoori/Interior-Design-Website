@@ -1,10 +1,16 @@
-import React from 'react';
+import Brands from './Components/Brands/Brands';
+import Hero from './Components/Hero/Hero';
+import Navbar from './Components/Navbar/Navbar';
+import Services from './Components/Services/Services';
 
 const App = () => {
     return (
-        <div>
-            <h1>Welcome to the Interior Design Website</h1>
-        </div>
+      <main className="overflow-x-hidden">
+            <Navbar />
+        <Hero />
+        <Brands />
+        <Services/>
+      </main>
     );
 }
 
