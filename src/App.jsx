@@ -1,3 +1,5 @@
+import Banner from './Components/Banner/Banner';
+import Banner2 from './Components/Banner/Banner2';
 import Brands from './Components/Brands/Brands';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
@@ -9,7 +11,9 @@ const App = () => {
             <Navbar />
         <Hero />
         <Brands />
-        <Services/>
+        <Services />
+        <Banner />
+        <Banner2/>
       </main>
     );
 }
