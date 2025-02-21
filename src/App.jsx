@@ -10,15 +10,15 @@ import Footer from './Components/Footer/Footer';
 
 const App = () => {
     return (
-      <main className="overflow-x-hidden">
-            <Navbar />
-        <Hero />
-        <Brands />
-        <Services />
-        <Banner />
-        <Banner2 />
-        <Testimonial />
-        <NawsLetter />
+      <main >
+        <Navbar/>
+        <Hero/>
+        <Brands/>
+        <Services/>
+        <Banner/>
+        <Banner2/>
+        <Testimonial/>
+        <NawsLetter/>
         <Footer/>
       </main>
     );
